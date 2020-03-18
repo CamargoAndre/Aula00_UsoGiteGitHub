@@ -7,6 +7,12 @@ public class Aluno {
 		this.id = id;
 	}
 
+	public Aluno(String nome, int id){
+		nome = nome;
+		id = id;
+
+	}
+
 	// Getters
 	public String getNome() {
 		return nome;
